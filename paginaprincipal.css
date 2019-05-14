@@ -1,0 +1,148 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    background-image: url(img/principal/sistemas.jpg); 
+    
+    
+}
+ 
+body {
+
+  
+ image-resolution:100%;
+ image-orientation:center;
+ background-repeat: no-repeat;
+ margin: auto; 
+
+    
+}
+
+.caja{
+     
+    width:50px;
+    max-width: 30%; 
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+
+.sombra1 {
+color: #49274A ;   
+text-shadow: 0px 0px 10px #C0C0C0;
+font-size: 300%;
+font-family: 'Orbitron', serif;
+text-align: center;
+background-color:
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    bottom: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:#F5F5F5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Arial";
+    font-size: 15px;
+    text-emphasis-color: aliceblue;
+} 
+
+li a:hover {
+    background-color: ;
+}
+
+.style { 
+  text-align: center;
+  
+}
+
+
+footer {
+        position: fixed;
+        z-index: 60;
+    }
+footer > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+    bottom: 0;
+   
+}
+footer> li {
+    
+    float: left;
+    }
+
+ a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 13px 15px;
+    text-decoration: none;
+    font-family: "Arial";
+    font-size: 10px;
+}
+
+ a:hover:not(.active){
+    background-color: #F4DECB;
+}
+    
+img { 
+   float: left; 
+   opacity: 0.5;
+    
+}
+
+h1{
+   color: #49274A;
+   text-shadow: 0px 0px 8px #C0C0C0;
+   text-align: center;
+}
+
+h3{
+color:#9b7c8f ;
+    
+}
+ p{
+  color:#49274A;
+  font-family: sans-serif;
+  font-size: 100%;
+  font-style: italic;
+  text-align: justify;
+  color:aliceblue; 
+  text-shadow:5px; 
+ 
+}
+
+
+div.borderidge {
+	border: 9px  #F8EEE7;
+    padding-right:50px;
+    padding-left:50px;
+    -webkit-box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75); 
+    align-content:space-around;
+    float: right; 
+    text-decoration-color: aliceblue;
+    opacity: 5%
+}
+
